@@ -1,7 +1,6 @@
 # aur-packages
 
-A collection of **PKGBUILDS** I currently maintain for the [Arch User Repository](https://aur.archlinux.org).<br>
-These currently include:
+A collection of **PKGBUILDS** I maintain for the [Arch User Repository](https://aur.archlinux.org), currently including:
  - [odin2-synthesizer](https://aur.archlinux.org/packages/odin2-synthesizer)
  - odin2-synthesizer-bin (WIP - Currently non-functional due to certificate issues at source)
 
