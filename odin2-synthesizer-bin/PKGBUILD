@@ -1,0 +1,23 @@
+# Maintainer: Ryan Algar <ryzer@arch-linux>
+# Upstream: TheWaveWarden (Frederik Siepe) <info AT thewavewarden DOT com>
+
+pkgname=odin2-synthesizer-bin
+pkgver=2.2.4
+_pkgver='2.2-4'
+pkgrel=1
+pkgdesc='24 voice polyphonic synthesizer, with FX rack (Standalone, VST3, LV2)'
+arch=('x86_64')
+url='https://www.thewavewarden.com/odin2'
+license=('GPL3')
+
+depends=('ttf-font')
+optdepends=('ttf-dejavu' 'ttf-liberation')
+provides=('odin2')
+conflicts=('odin2-synthesizer')
+source=("https://www.thewavewarden.com/assets/Odin_${_pkgver}.deb")
+sha256sums=('f8d28f5a3c68e41ef696093cca802c385d571e519ed05d64b2352134b17a2f1f')
+
+package() {
+    # Unpack package contents
+    bsdtar -xf ${srcdir}/data.tar -C ${pkgdir}/
+}
