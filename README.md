@@ -5,7 +5,7 @@ A collection of **PKGBUILDS** I maintain for the [Arch User Repository](https://
  - odin2-synthesizer-bin (WIP - Currently non-functional due to certificate issues at source)
 
 ----
-__**INSTALLATION:**__
+## INSTALLATION:
 **Manually, from Github:**
  - `git clone https://github.com/ryyzer/aur-packages`
  - `cd aur-packages/{package_name}`
