@@ -6,7 +6,7 @@
 [subrepo]
 	remote = ssh://aur@aur.archlinux.org/odin2-synthesizer.git
 	branch = master
-	commit = 37abf7ecaff46aaf9ed062a088e53999355aa4af
-	parent = 955a6a1ba350f1e84af0af2bd5a762968369c6be
+	commit = 5c2651fbe449f214e58cfaf372ca73091bfb0640
+	parent = 1a89bfeac3589e6dc361dd87273c7acbbafdf158
 	method = merge
 	cmdver = 0.4.1
